@@ -14,8 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
 <<<<<<< HEAD
+    m_Keys:
+    - .collabignore
+    - Packages/Sep18_Ethan.unitypackage
+    - Packages/manifest.json
+    - Packages/maze.unitypackage
+    - Packages/packages-lock.json
+    - ProjectSettings/ProjectVersion.txt
+    - 
+    m_Values: 00000000000000
+=======
+<<<<<<< HEAD
     m_Keys: []
     m_Values: 
+>>>>>>> origin/main
   RevisionSummary: 
 =======
     m_Keys:

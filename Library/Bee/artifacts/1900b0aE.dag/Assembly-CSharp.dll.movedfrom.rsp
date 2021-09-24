@@ -110,6 +110,9 @@ Library\Bee\artifacts\movedfrom\UnityEngine.VirtualTexturingModule.dll_713058942
 Library\Bee\artifacts\movedfrom\UnityEngine.VRModule.dll_7950724645163919396.movedfrom
 Library\Bee\artifacts\movedfrom\UnityEngine.WindModule.dll_6358851745757840832.movedfrom
 Library\Bee\artifacts\movedfrom\UnityEngine.XRModule.dll_11607299016884925826.movedfrom
+<<<<<<< HEAD
+Library\Bee\artifacts\movedfrom\Unity.VisualScripting.Antlr3.Runtime.dll_10390881375986374832.movedfrom
+=======
 Library\Bee\artifacts\movedfrom\Unity.VisualScripting.Antlr3.Runtime.dll_8277409339881990765.movedfrom
 =======
 Library\Bee\artifacts\movedfrom\UnityEditor.CoreModule.dll_16889834247305325561.movedfrom
@@ -193,3 +196,4 @@ Library\Bee\artifacts\movedfrom\UnityEditor.iOS.Extensions.Common.dll_3575136547
 Library\Bee\artifacts\movedfrom\UnityEditor.iOS.Extensions.Xcode.dll_13719686199833087630.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.VisualScripting.Antlr3.Runtime.dll_5529467944177685392.movedfrom
 >>>>>>> refs/remotes/origin/main
+>>>>>>> origin/main

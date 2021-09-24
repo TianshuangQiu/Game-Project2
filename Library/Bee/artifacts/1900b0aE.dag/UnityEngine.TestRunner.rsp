@@ -304,6 +304,9 @@
 -r:"C:/Program Files/Unity 2021.1.7f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
 -r:"C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
 -r:"C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+<<<<<<< HEAD
+-r:"C:/Users/w24ch/Desktop/Games/Game Dev/proj02Reset/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+=======
 -r:"C:/Users/w24ch/Desktop/Games/Game Dev/proj02/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 =======
 -r:"D:/Unity/Engine/2021.1.7f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
@@ -508,6 +511,7 @@
 -r:"D:/Unity/Engine/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"D:/Unity/Projects/Project 2/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 >>>>>>> refs/remotes/origin/main
+>>>>>>> origin/main
 "Library/PackageCache/com.unity.test-framework@1.1.24/UnityEngine.TestRunner/AssemblyInfo.cs"
 "Library/PackageCache/com.unity.test-framework@1.1.24/UnityEngine.TestRunner/Assertions/AllocatingGCMemoryConstraint.cs"
 "Library/PackageCache/com.unity.test-framework@1.1.24/UnityEngine.TestRunner/Assertions/ConstraintsExtensions.cs"

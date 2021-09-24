@@ -79,6 +79,11 @@ Library\Bee\artifacts\movedfrom\UnityEngine.WindModule.dll_6358851745757840832.m
 Library\Bee\artifacts\movedfrom\UnityEngine.XRModule.dll_11607299016884925826.movedfrom
 Library\Bee\artifacts\movedfrom\UnityEditor.OSXStandalone.Extensions.dll_15697036552674009055.movedfrom
 Library\Bee\artifacts\movedfrom\UnityEditor.WindowsStandalone.Extensions.dll_18333911824762217524.movedfrom
+<<<<<<< HEAD
+Library\Bee\artifacts\movedfrom\Unity.VisualScripting.IonicZip.dll_16584640912020715867.movedfrom
+Library\Bee\artifacts\movedfrom\Unity.VisualScripting.YamlDotNet.dll_16052707783893239953.movedfrom
+Library\Bee\artifacts\movedfrom\Unity.VisualScripting.Antlr3.Runtime.dll_10390881375986374832.movedfrom
+=======
 Library\Bee\artifacts\movedfrom\Unity.VisualScripting.IonicZip.dll_5021530677272261774.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.VisualScripting.YamlDotNet.dll_13939235747788855886.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.VisualScripting.Antlr3.Runtime.dll_8277409339881990765.movedfrom
@@ -172,3 +177,4 @@ Library\Bee\artifacts\movedfrom\Unity.VisualScripting.IonicZip.dll_1368482951799
 Library\Bee\artifacts\movedfrom\Unity.VisualScripting.YamlDotNet.dll_11191294352084550513.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.VisualScripting.Antlr3.Runtime.dll_5529467944177685392.movedfrom
 >>>>>>> refs/remotes/origin/main
+>>>>>>> origin/main
