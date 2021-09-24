@@ -13,8 +13,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
-    m_Keys: []
-    m_Values: 
+    m_Keys:
+    - .collabignore
+    - Assets/Scenes/DeadScene.unity
+    - Assets/Scenes/DeadScene.unity.meta
+    - Assets/Scenes/MainScene.unity
+    - Assets/Scenes/MainScene.unity.meta
+    - Assets/Scenes/VictoryScene.unity
+    - Assets/Scenes/VictoryScene.unity.meta
+    - Assets/Scripts/Player.cs
+    - Assets/Scripts/Player.cs.meta
+    - Assets/Scripts/UI/MainSceneTitle.cs
+    - Assets/Scripts/UI/MainSceneTitle.cs.meta
+    - Assets/Scripts/UI/SceneManagerScript.cs
+    - Assets/Scripts/UI/SceneManagerScript.cs.meta
+    - Assets/Scripts/UI/StartButtonScript.cs
+    - Assets/Scripts/UI/StartButtonScript.cs.meta
+    - Assets/Scripts/UI/TextGenerator.cs
+    - Assets/Scripts/UI/TextGenerator.cs.meta
+    - Packages/Sep18_Ethan.unitypackage
+    - Packages/manifest.json
+    - Packages/maze.unitypackage
+    - Packages/packages-lock.json
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - 
+    m_Values: 000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
