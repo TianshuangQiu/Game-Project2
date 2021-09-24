@@ -13,9 +13,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
+<<<<<<< HEAD
     m_Keys: []
     m_Values: 
   RevisionSummary: 
+=======
+    m_Keys:
+    - 
+    m_Values: 01
+  RevisionSummary: working ui
+>>>>>>> refs/remotes/origin/main
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0

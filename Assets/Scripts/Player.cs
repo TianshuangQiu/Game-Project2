@@ -1,7 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+<<<<<<< HEAD
 using UnityEngine.SceneManagement;
+=======
+>>>>>>> refs/remotes/origin/main
 
 public class Player : MonoBehaviour
 {
@@ -36,11 +39,19 @@ public class Player : MonoBehaviour
         if (collision.gameObject.CompareTag("Exit"))
         {
             Die();
+<<<<<<< HEAD
             SceneManager.LoadScene("VictoryScene");
         } else if (collision.gameObject.CompareTag("Laser"))
         {
             Die();
             SceneManager.LoadScene("DeadScene");
+=======
+            Debug.Log("NEXT LEVEL");
+        } else if (collision.gameObject.CompareTag("Laser"))
+        {
+            Die();
+            Debug.Log("I'm dead lul");
+>>>>>>> refs/remotes/origin/main
         }
         
     }
