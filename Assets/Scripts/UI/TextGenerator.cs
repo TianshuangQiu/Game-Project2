@@ -5,12 +5,30 @@ using UnityEngine.UI;
 
 public class TextGenerator : MonoBehaviour
 {
-
+    private List<SingleWriter> singleWriter;
+    private void Awake()
+    {
+        singleWriter = new List<SingleWriter>();
+    }
     public void AddWriter(Text uiText, string textToWrite, float timePerCharacter)
     {
+        singleWriter.Add(new SingleWriter(uiText, textToWrite, timePerCharacter));
 
     }
-    
+
+    private void Update()
+    {
+        for (int i = 0; i < singleWriter.Count; i++)
+        {
+            bool destroyInstance = singleWriter[i].Update();
+            if (destroyInstance)
+            {
+                singleWriter.RemoveAt(i);
+                i--;
+            }
+        }
+    }
+
     public class SingleWriter {
         private Text uiText;
         private string textToWrite;
@@ -27,33 +45,32 @@ public class TextGenerator : MonoBehaviour
 
         }
 
-        // Update is called once per frame
-        void Update()
+        // Returns true when there are no more characters in the String
+        public bool Update()
         {
-            if (uiText != null)
+            timer -= Time.deltaTime;
+            while (timer <= 0f)
             {
-                timer -= Time.deltaTime;
-                while (timer <= 0f)
-                {
-                    // Display next character
-                    timer += timePerCharacter;
-                    characterIndex++;
-                    string text = textToWrite.Substring(0, characterIndex);
+                // Display next character
+                timer += timePerCharacter;
+                characterIndex++;
+                string text = textToWrite.Substring(0, characterIndex);
 
-                    text += "<color=#00000000>" + textToWrite.Substring(characterIndex) + "</color>";
-                    uiText.text = text;
-                    if (characterIndex >= textToWrite.Length)
-                    {
-                        // Entire string displayed
-                        uiText = null;
-                        return;
-                    }
-                    while (characterIndex <= textToWrite.Length && textToWrite[characterIndex] == ' ')
-                    {
-                        characterIndex++;
-                    }
+                text += "<color=#00000000>" + textToWrite.Substring(characterIndex) + "</color>";
+                uiText.text = text;
+                if (characterIndex >= textToWrite.Length)
+                {
+                    // Entire string displayed
+                    uiText = null;
+                    return true;
+                }
+                while (characterIndex <= textToWrite.Length && textToWrite[characterIndex] == ' ')
+                {
+                    characterIndex++;
                 }
             }
+            return false;
+            
         }
     }
 

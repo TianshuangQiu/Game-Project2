@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -35,11 +36,11 @@ public class Player : MonoBehaviour
         if (collision.gameObject.CompareTag("Exit"))
         {
             Die();
-            Debug.Log("NEXT LEVEL");
+            SceneManager.LoadScene("VictoryScene");
         } else if (collision.gameObject.CompareTag("Laser"))
         {
             Die();
-            Debug.Log("I'm dead lul");
+            SceneManager.LoadScene("DeadScene");
         }
         
     }

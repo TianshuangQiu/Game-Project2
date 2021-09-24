@@ -347,6 +347,8 @@
 "Assets/Scripts/RigidBody/BallScript.cs"
 "Assets/Scripts/RigidBody/CircleMovement.cs"
 "Assets/Scripts/UI/MainSceneTitle.cs"
+"Assets/Scripts/UI/SceneManagerScript.cs"
+"Assets/Scripts/UI/StartButtonScript.cs"
 "Assets/Scripts/UI/TextGenerator.cs"
 "Assets/Scripts/UIHandler.cs"
 "Assets/Scripts/Wipe.cs"

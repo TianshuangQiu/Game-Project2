@@ -110,6 +110,8 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\Scripts\UI\TextGenerator.cs" />
     <Compile Include="Assets\Scripts\UI\MainSceneTitle.cs" />
+    <Compile Include="Assets\Scripts\UI\StartButtonScript.cs" />
+    <Compile Include="Assets\Scripts\UI\SceneManagerScript.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
