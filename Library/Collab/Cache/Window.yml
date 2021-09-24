@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
+<<<<<<< HEAD
     m_Keys:
     - .collabignore
     - Packages/Sep18_Ethan.unitypackage
@@ -22,7 +23,18 @@ MonoBehaviour:
     - ProjectSettings/ProjectVersion.txt
     - 
     m_Values: 00000000000000
+=======
+<<<<<<< HEAD
+    m_Keys: []
+    m_Values: 
+>>>>>>> origin/main
   RevisionSummary: 
+=======
+    m_Keys:
+    - 
+    m_Values: 01
+  RevisionSummary: working ui
+>>>>>>> refs/remotes/origin/main
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0
