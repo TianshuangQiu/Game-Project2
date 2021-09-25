@@ -7,6 +7,9 @@ TagManager:
   - Laser
   - Exit
   - UI
+  - Heal
+  - Lv2
+  - Lv1
   layers:
   - Default
   - TransparentFX

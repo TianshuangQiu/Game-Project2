@@ -1,14 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-<<<<<<< HEAD
 using UnityEngine.SceneManagement;
-=======
-<<<<<<< HEAD
-using UnityEngine.SceneManagement;
-=======
->>>>>>> refs/remotes/origin/main
->>>>>>> origin/main
 
 public class Player : MonoBehaviour
 {
@@ -16,11 +9,15 @@ public class Player : MonoBehaviour
 
     float xAxis;
     float yAxis;
+    float movementSpeed;
+    float health;
 
     // Start is called before the first frame update
     void Start()
     {
         playerRigidbody = GetComponent<Rigidbody2D>();
+        movementSpeed = 1.5f;
+        health = 2;
     }
 
     // Update is called once per frame
@@ -35,42 +32,63 @@ public class Player : MonoBehaviour
     void Move()
     {
         Vector2 movementVector = new Vector2(xAxis, yAxis);
-        playerRigidbody.velocity = movementVector;
+        playerRigidbody.velocity = movementVector * movementSpeed;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Exit"))
         {
-            Die();
-<<<<<<< HEAD
             SceneManager.LoadScene("VictoryScene");
-        } else if (collision.gameObject.CompareTag("Laser"))
-        {
-            Die();
-            SceneManager.LoadScene("DeadScene");
-=======
-<<<<<<< HEAD
-            SceneManager.LoadScene("VictoryScene");
-        } else if (collision.gameObject.CompareTag("Laser"))
-        {
-            Die();
-            SceneManager.LoadScene("DeadScene");
-=======
-            Debug.Log("NEXT LEVEL");
-        } else if (collision.gameObject.CompareTag("Laser"))
-        {
-            Die();
-            Debug.Log("I'm dead lul");
->>>>>>> refs/remotes/origin/main
->>>>>>> origin/main
         }
-        
+        else if (collision.gameObject.CompareTag("Lv1"))
+        {
+            SceneManager.LoadScene("Level1");
+        }
+        else if (collision.gameObject.CompareTag("Lv2"))
+        {
+            SceneManager.LoadScene("Level2");
+        }
+        else if (collision.gameObject.CompareTag("Laser"))
+        {
+            takeDamage();
+        }
+         
     }
-    
+
+    void takeDamage()
+    {
+        health -= 1;
+        if(health <= 0)
+        {
+            Die();
+        }
+        movementSpeed *= 2;
+        fadeIn();
+    }
 
     void Die()
     {
         Destroy(this.gameObject);
+        SceneManager.LoadScene("DeadScene");
+
+    }
+
+    void fadeIn()
+    {
+        var arr = GameObject.FindGameObjectsWithTag("Heal");
+        foreach (var x in arr)
+        {
+            x.GetComponent<UIHandler>().fadeIn();
+        }
+    }
+
+    void fadeOut()
+    {
+        var arr = GameObject.FindGameObjectsWithTag("Heal");
+        foreach (var x in arr)
+        {
+            x.GetComponent<UIHandler>().fadeOut();
+        }
     }
 }

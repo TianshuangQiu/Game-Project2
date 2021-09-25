@@ -28,7 +28,7 @@ public class EnemySpawn : MonoBehaviour
         countDown = 0f;
         fireCD = 0f;
         waiting = false;
-        timePerShot = 15;
+        timePerShot = 10;
     }
 
     // Update is called once per frame
@@ -50,7 +50,7 @@ public class EnemySpawn : MonoBehaviour
         {
             countDown = 0;
             tsfm = player.transform.position;
-            tsfm.z = 1;
+            tsfm.z = 0;
             qt = Quaternion.Euler(0, 0, Random.Range(-90, 90));
             Instantiate(warn,tsfm, qt);
             waiting = true;

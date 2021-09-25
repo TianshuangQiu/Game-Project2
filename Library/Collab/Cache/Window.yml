@@ -13,28 +13,382 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
-<<<<<<< HEAD
     m_Keys:
-    - .collabignore
-    - Packages/Sep18_Ethan.unitypackage
-    - Packages/manifest.json
-    - Packages/maze.unitypackage
-    - Packages/packages-lock.json
-    - ProjectSettings/ProjectVersion.txt
+    - Assets/Prefabs/Canvas.prefab
+    - Assets/Prefabs/Canvas.prefab.meta
+    - Assets/Prefabs/Flashlight.prefab
+    - Assets/Prefabs/Flashlight.prefab.meta
+    - Assets/Prefabs/Player.prefab
+    - Assets/Prefabs/Player.prefab.meta
+    - Assets/Scenes/DeadScene.unity
+    - Assets/Scenes/DeadScene.unity.meta
+    - Assets/Scenes/Intro.unity
+    - Assets/Scenes/Intro.unity.meta
+    - Assets/Scenes/Level1.unity
+    - Assets/Scenes/Level2.unity
+    - Assets/Scenes/Level2.unity.meta
+    - Assets/Scenes/MainScene.unity
+    - Assets/Scenes/MainScene.unity.meta
+    - Assets/Scenes/VictoryScene.unity
+    - Assets/Scenes/VictoryScene.unity.meta
+    - Assets/Scripts/Button2.cs
+    - Assets/Scripts/Button2.cs.meta
+    - Assets/Scripts/ButtonScript.cs
+    - Assets/Scripts/ButtonScript.cs.meta
+    - Assets/Scripts/Collider/FeetColliderScript.cs
+    - Assets/Scripts/Collider/FeetColliderScript.cs.meta
+    - Assets/Scripts/Collider/PlayerControllerTask1.cs
+    - Assets/Scripts/Collider/PlayerControllerTask1.cs.meta
+    - Assets/Scripts/Collider/PlayerControllerTask2.cs
+    - Assets/Scripts/Collider/PlayerControllerTask2.cs.meta
+    - Assets/Scripts/Collider/ShooterScript.cs
+    - Assets/Scripts/Collider/ShooterScript.cs.meta
+    - Assets/Scripts/EnemySpawn.cs
+    - Assets/Scripts/InitializeTextGenerator.cs
+    - Assets/Scripts/InitializeTextGenerator.cs.meta
+    - Assets/Scripts/Mist.cs
+    - Assets/Scripts/Player.cs
+    - Assets/Scripts/RigidBody/BallScript.cs
+    - Assets/Scripts/RigidBody/BallScript.cs.meta
+    - Assets/Scripts/RigidBody/CircleMovement.cs
+    - Assets/Scripts/RigidBody/CircleMovement.cs.meta
+    - Assets/Scripts/TextGenerator.cs
+    - Assets/Scripts/TextGenerator.cs.meta
+    - Assets/Scripts/UIHandler.cs
+    - Assets/Scripts/Wipe.cs
+    - Assets/ShooterSpritePack.meta
+    - Assets/ShooterSpritePack/Animations.meta
+    - Assets/ShooterSpritePack/Animations/PlayerCover.anim
+    - Assets/ShooterSpritePack/Animations/PlayerCover.anim.meta
+    - Assets/ShooterSpritePack/Animations/PlayerDeath.anim
+    - Assets/ShooterSpritePack/Animations/PlayerDeath.anim.meta
+    - Assets/ShooterSpritePack/Animations/PlayerExplode.anim
+    - Assets/ShooterSpritePack/Animations/PlayerExplode.anim.meta
+    - Assets/ShooterSpritePack/Animations/PlayerLean.anim
+    - Assets/ShooterSpritePack/Animations/PlayerLean.anim.meta
+    - Assets/ShooterSpritePack/Animations/PlayerProne.anim
+    - Assets/ShooterSpritePack/Animations/PlayerProne.anim.meta
+    - Assets/ShooterSpritePack/Animations/PlayerRun.anim
+    - Assets/ShooterSpritePack/Animations/PlayerRun.anim.meta
+    - Assets/ShooterSpritePack/Animations/PlayerWalk.anim
+    - Assets/ShooterSpritePack/Animations/PlayerWalk.anim.meta
+    - Assets/ShooterSpritePack/Animations/SoldierCover3.controller
+    - Assets/ShooterSpritePack/Animations/SoldierCover3.controller.meta
+    - Assets/ShooterSpritePack/Animations/SoldierDeath1.controller
+    - Assets/ShooterSpritePack/Animations/SoldierDeath1.controller.meta
+    - Assets/ShooterSpritePack/Animations/SoldierDeath4.controller
+    - Assets/ShooterSpritePack/Animations/SoldierDeath4.controller.meta
+    - Assets/ShooterSpritePack/Animations/SoldierDeath8.controller
+    - Assets/ShooterSpritePack/Animations/SoldierDeath8.controller.meta
+    - Assets/ShooterSpritePack/Animations/SoldierDeath9.controller
+    - Assets/ShooterSpritePack/Animations/SoldierDeath9.controller.meta
+    - Assets/ShooterSpritePack/Animations/SoldierExplode7.controller
+    - Assets/ShooterSpritePack/Animations/SoldierExplode7.controller.meta
+    - Assets/ShooterSpritePack/Animations/SoldierLean3.controller
+    - Assets/ShooterSpritePack/Animations/SoldierLean3.controller.meta
+    - Assets/ShooterSpritePack/Animations/SoldierProne6.controller
+    - Assets/ShooterSpritePack/Animations/SoldierProne6.controller.meta
+    - Assets/ShooterSpritePack/Animations/SoldierProne7.controller
+    - Assets/ShooterSpritePack/Animations/SoldierProne7.controller.meta
+    - Assets/ShooterSpritePack/Animations/SoldierWalk3.controller
+    - Assets/ShooterSpritePack/Animations/SoldierWalk3.controller.meta
+    - Assets/ShooterSpritePack/Animations/Soldier_Run1.controller
+    - Assets/ShooterSpritePack/Animations/Soldier_Run1.controller.meta
+    - Assets/ShooterSpritePack/Prefabs.meta
+    - Assets/ShooterSpritePack/Prefabs/SoldierCover.prefab
+    - Assets/ShooterSpritePack/Prefabs/SoldierCover.prefab.meta
+    - Assets/ShooterSpritePack/Prefabs/SoldierDeath.prefab
+    - Assets/ShooterSpritePack/Prefabs/SoldierDeath.prefab.meta
+    - Assets/ShooterSpritePack/Prefabs/SoldierExplode.prefab
+    - Assets/ShooterSpritePack/Prefabs/SoldierExplode.prefab.meta
+    - Assets/ShooterSpritePack/Prefabs/SoldierLean.prefab
+    - Assets/ShooterSpritePack/Prefabs/SoldierLean.prefab.meta
+    - Assets/ShooterSpritePack/Prefabs/SoldierProne.prefab
+    - Assets/ShooterSpritePack/Prefabs/SoldierProne.prefab.meta
+    - Assets/ShooterSpritePack/Prefabs/SoldierRun.prefab
+    - Assets/ShooterSpritePack/Prefabs/SoldierRun.prefab.meta
+    - Assets/ShooterSpritePack/Prefabs/SoldierWalk.prefab
+    - Assets/ShooterSpritePack/Prefabs/SoldierWalk.prefab.meta
+    - Assets/ShooterSpritePack/ReadMe.txt
+    - Assets/ShooterSpritePack/ReadMe.txt.meta
+    - Assets/ShooterSpritePack/Sprites.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerCover.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerCover/SoldierCover0.png
+    - Assets/ShooterSpritePack/Sprites/PlayerCover/SoldierCover0.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerCover/SoldierCover1.png
+    - Assets/ShooterSpritePack/Sprites/PlayerCover/SoldierCover1.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerCover/SoldierCover2.png
+    - Assets/ShooterSpritePack/Sprites/PlayerCover/SoldierCover2.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerCover/SoldierCover3.png
+    - Assets/ShooterSpritePack/Sprites/PlayerCover/SoldierCover3.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerCover/SoldierCover4.png
+    - Assets/ShooterSpritePack/Sprites/PlayerCover/SoldierCover4.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerCover/SoldierCover5.png
+    - Assets/ShooterSpritePack/Sprites/PlayerCover/SoldierCover5.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerCover/SoldierCover6.png
+    - Assets/ShooterSpritePack/Sprites/PlayerCover/SoldierCover6.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerCover/SoldierCover7.png
+    - Assets/ShooterSpritePack/Sprites/PlayerCover/SoldierCover7.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerCover/SoldierCover8.png
+    - Assets/ShooterSpritePack/Sprites/PlayerCover/SoldierCover8.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerCover/SoldierCover9.png
+    - Assets/ShooterSpritePack/Sprites/PlayerCover/SoldierCover9.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath/SoldierDeath0.png
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath/SoldierDeath0.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath/SoldierDeath1.png
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath/SoldierDeath1.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath/SoldierDeath10.png
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath/SoldierDeath10.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath/SoldierDeath11.png
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath/SoldierDeath11.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath/SoldierDeath12.png
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath/SoldierDeath12.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath/SoldierDeath13.png
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath/SoldierDeath13.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath/SoldierDeath2.png
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath/SoldierDeath2.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath/SoldierDeath3.png
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath/SoldierDeath3.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath/SoldierDeath4.png
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath/SoldierDeath4.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath/SoldierDeath5.png
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath/SoldierDeath5.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath/SoldierDeath6.png
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath/SoldierDeath6.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath/SoldierDeath7.png
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath/SoldierDeath7.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath/SoldierDeath8.png
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath/SoldierDeath8.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath/SoldierDeath9.png
+    - Assets/ShooterSpritePack/Sprites/PlayerDeath/SoldierDeath9.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerExplode.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerExplode/SoldierExplode0.png
+    - Assets/ShooterSpritePack/Sprites/PlayerExplode/SoldierExplode0.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerExplode/SoldierExplode1.png
+    - Assets/ShooterSpritePack/Sprites/PlayerExplode/SoldierExplode1.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerExplode/SoldierExplode10.png
+    - Assets/ShooterSpritePack/Sprites/PlayerExplode/SoldierExplode10.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerExplode/SoldierExplode11.png
+    - Assets/ShooterSpritePack/Sprites/PlayerExplode/SoldierExplode11.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerExplode/SoldierExplode2.png
+    - Assets/ShooterSpritePack/Sprites/PlayerExplode/SoldierExplode2.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerExplode/SoldierExplode3.png
+    - Assets/ShooterSpritePack/Sprites/PlayerExplode/SoldierExplode3.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerExplode/SoldierExplode4.png
+    - Assets/ShooterSpritePack/Sprites/PlayerExplode/SoldierExplode4.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerExplode/SoldierExplode5.png
+    - Assets/ShooterSpritePack/Sprites/PlayerExplode/SoldierExplode5.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerExplode/SoldierExplode6.png
+    - Assets/ShooterSpritePack/Sprites/PlayerExplode/SoldierExplode6.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerExplode/SoldierExplode7.png
+    - Assets/ShooterSpritePack/Sprites/PlayerExplode/SoldierExplode7.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerExplode/SoldierExplode8.png
+    - Assets/ShooterSpritePack/Sprites/PlayerExplode/SoldierExplode8.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerExplode/SoldierExplode9.png
+    - Assets/ShooterSpritePack/Sprites/PlayerExplode/SoldierExplode9.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerLean.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerLean/SoldierLean0.png
+    - Assets/ShooterSpritePack/Sprites/PlayerLean/SoldierLean0.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerLean/SoldierLean1.png
+    - Assets/ShooterSpritePack/Sprites/PlayerLean/SoldierLean1.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerLean/SoldierLean2.png
+    - Assets/ShooterSpritePack/Sprites/PlayerLean/SoldierLean2.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerLean/SoldierLean3.png
+    - Assets/ShooterSpritePack/Sprites/PlayerLean/SoldierLean3.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerLean/SoldierLean4.png
+    - Assets/ShooterSpritePack/Sprites/PlayerLean/SoldierLean4.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerLean/SoldierLean5.png
+    - Assets/ShooterSpritePack/Sprites/PlayerLean/SoldierLean5.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerLean/SoldierLean6.png
+    - Assets/ShooterSpritePack/Sprites/PlayerLean/SoldierLean6.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerLean/SoldierLean7.png
+    - Assets/ShooterSpritePack/Sprites/PlayerLean/SoldierLean7.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerProne.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerProne/SoldierProne0.png
+    - Assets/ShooterSpritePack/Sprites/PlayerProne/SoldierProne0.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerProne/SoldierProne1.png
+    - Assets/ShooterSpritePack/Sprites/PlayerProne/SoldierProne1.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerProne/SoldierProne2.png
+    - Assets/ShooterSpritePack/Sprites/PlayerProne/SoldierProne2.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerProne/SoldierProne3.png
+    - Assets/ShooterSpritePack/Sprites/PlayerProne/SoldierProne3.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerProne/SoldierProne4.png
+    - Assets/ShooterSpritePack/Sprites/PlayerProne/SoldierProne4.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerProne/SoldierProne5.png
+    - Assets/ShooterSpritePack/Sprites/PlayerProne/SoldierProne5.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerProne/SoldierProne6.png
+    - Assets/ShooterSpritePack/Sprites/PlayerProne/SoldierProne6.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerProne/SoldierProne7.png
+    - Assets/ShooterSpritePack/Sprites/PlayerProne/SoldierProne7.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerRun.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerRun/Soldier_Run0.png
+    - Assets/ShooterSpritePack/Sprites/PlayerRun/Soldier_Run0.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerRun/Soldier_Run1.png
+    - Assets/ShooterSpritePack/Sprites/PlayerRun/Soldier_Run1.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerRun/Soldier_Run10.png
+    - Assets/ShooterSpritePack/Sprites/PlayerRun/Soldier_Run10.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerRun/Soldier_Run11.png
+    - Assets/ShooterSpritePack/Sprites/PlayerRun/Soldier_Run11.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerRun/Soldier_Run2.png
+    - Assets/ShooterSpritePack/Sprites/PlayerRun/Soldier_Run2.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerRun/Soldier_Run3.png
+    - Assets/ShooterSpritePack/Sprites/PlayerRun/Soldier_Run3.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerRun/Soldier_Run4.png
+    - Assets/ShooterSpritePack/Sprites/PlayerRun/Soldier_Run4.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerRun/Soldier_Run5.png
+    - Assets/ShooterSpritePack/Sprites/PlayerRun/Soldier_Run5.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerRun/Soldier_Run6.png
+    - Assets/ShooterSpritePack/Sprites/PlayerRun/Soldier_Run6.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerRun/Soldier_Run7.png
+    - Assets/ShooterSpritePack/Sprites/PlayerRun/Soldier_Run7.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerRun/Soldier_Run8.png
+    - Assets/ShooterSpritePack/Sprites/PlayerRun/Soldier_Run8.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerRun/Soldier_Run9.png
+    - Assets/ShooterSpritePack/Sprites/PlayerRun/Soldier_Run9.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk0.png
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk0.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk1.png
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk1.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk10.png
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk10.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk11.png
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk11.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk12.png
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk12.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk13.png
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk13.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk14.png
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk14.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk15.png
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk15.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk2.png
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk2.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk3.png
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk3.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk4.png
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk4.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk5.png
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk5.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk6.png
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk6.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk7.png
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk7.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk8.png
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk8.png.meta
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk9.png
+    - Assets/ShooterSpritePack/Sprites/PlayerWalk/SoldierWalk9.png.meta
+    - Assets/ShooterSpritePack/Trenches.meta
+    - Assets/ShooterSpritePack/Trenches/Ground.png
+    - Assets/ShooterSpritePack/Trenches/Ground.png.meta
+    - Assets/ShooterSpritePack/Trenches/Sandbags.png
+    - Assets/ShooterSpritePack/Trenches/Sandbags.png.meta
+    - Assets/ShooterSpritePack/Trenches/TrenchCorner.png
+    - Assets/ShooterSpritePack/Trenches/TrenchCorner.png.meta
+    - Assets/ShooterSpritePack/Trenches/TrenchMud.png
+    - Assets/ShooterSpritePack/Trenches/TrenchMud.png.meta
+    - Assets/ShooterSpritePack/Trenches/TrenchStraight.png
+    - Assets/ShooterSpritePack/Trenches/TrenchStraight.png.meta
+    - Assets/ShooterSpritePack/Trenches/TrenchWideStraight.png
+    - Assets/ShooterSpritePack/Trenches/TrenchWideStraight.png.meta
+    - Assets/Sprites/cyan.psd
+    - Assets/Sprites/cyan.psd.meta
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Examples & Extras.meta
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab
+    - Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs.meta
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs
+    - Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+    - Assets/TextMesh Pro/Shaders.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+    - Assets/cour.ttf
+    - Assets/cour.ttf.meta
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/TagManager.asset
     - 
-    m_Values: 00000000000000
-=======
-<<<<<<< HEAD
-    m_Keys: []
-    m_Values: 
->>>>>>> origin/main
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
-=======
-    m_Keys:
-    - 
-    m_Values: 01
-  RevisionSummary: working ui
->>>>>>> refs/remotes/origin/main
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0
